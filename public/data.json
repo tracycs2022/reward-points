@@ -1,0 +1,18 @@
+[
+    {
+        "date": "6.1.2022",
+        "transaction": "120"
+    },
+    {
+        "date": "6.2.2022",
+        "transaction": "55"
+    },
+    {
+        "date": "7.3.2022",
+        "transaction": "85"
+    },
+    {
+        "date": "7.5.2022",
+        "transaction": "200"
+    }
+]

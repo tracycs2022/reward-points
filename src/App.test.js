@@ -1,8 +1,10 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, cleanup } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test.afterEach(cleanup);
+
+test('renders h1',() => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+  const h1Element = screen.getByText(/Transactions in the past three months/i);
+  expect(h1Element).toBeInTheDocument();
+})
