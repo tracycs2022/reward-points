@@ -16,14 +16,14 @@ function App() {
          }
       }
       )
-        .then(function(response){
-          console.log(response)
-          return response.json();
-        })
-        .then(function(myJson) {
-          console.log(myJson);
-          setData(myJson);
-        });
+      .then(function(response){
+        console.log(response)
+        return response.json();
+      })
+      .then(function(myJson) {
+        console.log(myJson);
+        setData(myJson);
+      });
     }
     catch(error) {
       console.log("error message: " + error);
